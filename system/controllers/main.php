@@ -6,7 +6,7 @@ class main extends Controller {
 	}
 	
 	public function index() {
-    print "Echo $just $a $playground =)";
+    print 'Echo $just $a $playground =)';
 	}
 
   public function canvasTouch() {
