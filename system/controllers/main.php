@@ -6,7 +6,11 @@ class main extends Controller {
 	}
 	
 	public function index() {
-            $this->loadView('wellcome', array());
+    print "Echo $just $a $playground =)";
 	}
+
+  public function canvasTouch() {
+    $this->loadView('canvasTouch/test',array());
+  }
 }
 ?>
